@@ -1,0 +1,120 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXX FIN RESET XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
+/* GENERAL */
+header{
+    background: url(../img/fond.jpg) no-repeat center center;
+    background-size: cover;
+    margin: 0 auto;
+    height: 100vh;
+}
+nav, h1, h2,th{
+    font-family: 'Lobster', cursive;
+    /* color: white; */
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+
+/* HEADER */
+nav{
+    text-align: center;
+    height: 100px;
+    background-color:rgba(255, 255, 255, 0.5);
+}
+nav a{
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    text-shadow: 1px 1px 2px rgba(0 , 0, 0, 0.9);
+}
+header h2{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    color: white;
+}
+h1{
+    font-size: 2rem;
+    margin-top: 12%;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0 , 0, 0, 0.9);
+}
+
+/* MAIN */
+main{
+    max-width: 1100px;
+	min-width: 800px;
+	margin: 0 auto;
+    width: 90vw;
+}
+main h2{
+    color: #34495C;
+    margin: 30px auto;
+    font-weight: bold;
+}
+td, th{
+    border: 1px solid #CACACA;
+    padding: 10px 10px;
+}
+table{
+    width: 100%;
+    margin-top: 20px;
+}
+th{
+    background-color: #A9ACB2;
+    color: white;
+    text-align: start;
+    padding-left: 20px;
+
+}
+tr:nth-child(odd){
+    background-color: #F2F2F2;
+}
+td+td{
+    text-align: center;
+}
