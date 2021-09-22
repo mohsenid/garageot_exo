@@ -14,11 +14,11 @@
 <body>
     <header>
         <nav>
-            <a href="#"><i class="fas fa-home"></i>Accueil</a>
-            <a href="#"><i class="far fa-calendar-alt"></i>Rendez-vous</a>
-            <a href="#"><i class="fas fa-users"></i>L'équipe</a>
-            <a href="#"><i class="far fa-image"></i>Album Photo</a>
-            <a href="#"><i class="far fa-envelope"></i>Nous contacter</a>
+            <a href="#"><i class="fas fa-home"></i>Accueil </a>
+            <a href="#"><i class="far fa-calendar-alt"></i>Rendez-vous </a>
+            <a href="#"><i class="fas fa-users"></i> L'équipe </a>
+            <a href="#"><i class="far fa-image"></i> Album Photo </a>
+            <a href="#"><i class="far fa-envelope"></i> Nous contacter</a>
         </nav>
         <h2>OFFRE 2017: une roue achetée, une autre pas gratuit!</h2>
         <h1>Bienvenue chez Jacquot le garageot</h1>
@@ -76,6 +76,58 @@
                 <td>1 million d'€</td>
             </tr>
         </table>
+        <h2>Pour réserver un créneau harraire, compléter ce formulair :</h2>
+        <form action="" method="POST">
+            <fieldset>
+                <legend>Vos coordonnées</legend>
+
+                <label for="prenom">Votre prénom : </label>
+                <input type="text" name="prenom" id="prenom">
+
+                <label for="nom">Votre nom :</label>
+                <input type="text" name="nom" id="nom">
+
+                <label for="mail">Votre mail :</label>
+                <input type="mail" name="mail" id="mail">
+            </fieldset>
+
+            <fieldset>
+                <legend>Quelles sont les raisons de votre venue?</legend>
+
+                <label for="raison1">Je dois entreteni mon véhicule</label>
+                <input type="checkbox" name="raison1" id="raison1">
+
+                <label for="raison2">J'ai trop d'argent</label>
+                <input type="checkbox" name="raison2" id="raison2">
+
+                <label for="raison3">J'ai eu un accident</label>
+                <input type="checkbox" name="raison3" id="raison3">
+            </fieldset>
+
+            <fieldset>
+                <legend>Voulez-vous souscrire à notre programme de fidélité?</legend>
+
+                <label for="raison2">Oui</label>
+                <input type="radio" name="radio" id="oui" >
+
+                <label for="raison3">Non</label>
+                <input type="radio" name="radio" id="non">
+            </fieldset>
+
+            <fieldset>
+                <legend>Comment avez-vous connu Ila Yoga</legend>
+                <select name="connu" id="connu">
+                    <option value="Par internet">Par internet</option>
+                    <option value="Les amis">Les amis</option>
+                    <option value="La pub">La pub</option>
+                    <option value="TV">TV</option>
+                </select>
+            </fieldset>
+        </form>
+        <button type="Envoyer">Envoyer</button>
     </main>
+    <footer>
+        <i class="fa fa-copyright" aria-hidden="true">Copyright 2021 Mohammad</i>
+    </footer>
 </body>
 </html>
